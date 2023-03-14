@@ -6,10 +6,10 @@ function SimpleCounter(props){
         <i className="far fa-clock"></i>
     
     
-     <div className="four"></div>
-     <div className="three"></div>
-     <div className="two"></div>
-    <div className="one"></div>
+     <div className="four">{props.digitFour}</div>
+     <div className="three">{props.digitThree}</div>
+     <div className="two">{props.digitTwo}</div>
+    <div className="one">{props.digitOne}</div>
     </div>
     )
 }
