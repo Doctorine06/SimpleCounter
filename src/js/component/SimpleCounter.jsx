@@ -14,7 +14,8 @@ function SimpleCounter(props){
     );
 }
 
- setInterval(function)(){
+let counter = 0;
+ setInterval(function(){
     const four = Math.floor(counter/10000);
     const three = Math.floor(counter/1000);
     const two = Math.floor(counter/100);
@@ -24,7 +25,7 @@ function SimpleCounter(props){
     // ReactDOM.render(
         <SimpleCounter digitOne= {CountQueuingStrategy.indexOf()} />,
         document.querySelector('#app')
-    //  )
+    )
 }
 
 
