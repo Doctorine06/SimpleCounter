@@ -11,7 +11,19 @@ function SimpleCounter(props){
      <div className="two">{props.digitTwo}</div>
     <div className="one">{props.digitOne}</div>
     </div>
-    )
+    );
+}
+
+ setInterval(function)(){
+    const four = Math.floor(counter)
+    const three = Math.floor(counter)
+    const two = Math.floor(counter)
+    const one = Math.floor(counter)
+
+    // ReactDOM.render(
+        <SimpleCounter digitOne= {CountQueuingStrategy.indexOf()} />,
+        document.querySelector('#app')
+    //  )
 }
 
 
