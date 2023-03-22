@@ -23,10 +23,10 @@ let counter = 0;
     console.log(four,three,two,one);
 
     // ReactDOM.render(
-        <SimpleCounter digitOne= {CountQueuingStrategy.indexOf()} />,
+        <SimpleCounter digitOne= 
+        {CountQueuingStrategy.indexOf()} />,
         document.querySelector('#app')
-    )
-}
+ })
 
 
 export default SimpleCounter;
