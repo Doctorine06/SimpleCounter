@@ -1,13 +1,13 @@
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
-import styles from '../component./styles./index.css'
+//import styles from '../component./styles./index.css';
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
 //import your own components
-
+import PropTypes from 'prop-types';
 
 function SimpleCounter(props){
     return(<div className="bigCounter"> 
