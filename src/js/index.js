@@ -1,6 +1,7 @@
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
+import Bootstrap from "bootstrap";
 //import styles from '../component./styles./index.css';
 
 // include your styles into the webpack bundle

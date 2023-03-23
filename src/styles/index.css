@@ -1,4 +1,4 @@
-bigCounter div{
+.bigCounter div{
     display: inline-block;
     font-size: 60px;
     line-height: 60px;
@@ -7,4 +7,9 @@ bigCounter div{
     margin: 3px;
     color: white;
     padding: 10px;
+}
+
+.bigCounter{
+    display: inline-block;
+    text-align: center;
 }
