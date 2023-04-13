@@ -48,6 +48,6 @@ let counter = 0;
 }, 1000);
 
 ReactDOM.render(
-	<SimpleCounter digitOne= {one} digitTwo={two} digitThree={three} digitFour={four} />,
+	<SimpleCounter digitOne= {one/10} digitTwo={two/10} digitThree={three/10} digitFour={four/10} />,
 	document.querySelector('#app')
 );
